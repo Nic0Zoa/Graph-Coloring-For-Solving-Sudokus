@@ -10,8 +10,8 @@ The main theory behind this code is [Graph Coloring](https://en.wikipedia.org/wi
 In our case, each number, from $1$ to $n$ represents a color, and using some techniques, we can build a graph from the sudoku grid, which is constructed once you specify the desired size.
 Combining graph coloring with a simple [Backtracking](https://en.wikipedia.org/wiki/Backtracking) algorithm this code can find if any sudoku you type has:
 - Unique solution
-- Doesn't have a solution
-- Multiple Solution
+- No solution
+- Multiple solutions
 
 But backtracking is expensive, so, if you typed just a few numbers or your grid is very large, well, you'll have to wait. Even if it is ten times longer than the universe lifespan.
 
